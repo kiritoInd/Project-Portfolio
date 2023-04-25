@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&family=Poppins:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+:root {
+  /* light theme */
+  --color-text-light: #2e2e2e;
+  --color-background-light: #439A97;
+  --color-pink-light: #7fbcd2fe;
+  --color-green-light: #7bddb5;
+  --color-blue-light: #87A2FB;
+  /* dark theme */
+  --color-text-dark: #e5e5e5;
+  --color-background-dark: #BFACE0;
+
+}
+
+
+.experience{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+.experience-canvas{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+.page {
+
+  z-index: 9999999999999999999999;
+  width: 100%;
+  height: 100vh;
+  /* overflow: hidden; */
+  color: #e1e1e1;
+}
+
+
+.page-wrapper {
+  position: relative;
+
+  width: 100%;
+}
+.section-text{
+  margin: 4% 0%;
+}
+
+.char{
+  color: var(--color-text-light);
+  font-family: "poppins";
+  font-size: 20px;  
+  
+  
+}
+.char-main{
+  position:absolute;
+  top: 10%;
+  left: 20% 
+
+}
+.char-two{
+  position:absolute;
+
+  top: 10%;
+  right: 20% 
+}
+
+.char-main-description
+{
+  font-size: 18px;
+
+}
+.char-two-subheading{
+  font-weight: bold;
+}
+.char-two-description{
+  font-size: 20px;
+}
+.section-margin {
+  height: 1000px;
+  width: 100%;
+}
+.section-margin2{
+  height: 800px !important;
+}
+
+.section {
+  width: 45%;
+  height: 850px;
+  padding: 140px 4%;
+  /* height: 10px; */
+  margin: 0;
+  font-size: 21px;
+  font-family: "poppins";
+  font-weight:200;
+  text-shadow: 0.3px 0.3px #000000;
+
+
+  background-color: var(--color-background-light);
+
+
+}
+.section a{
+  color: white;
+
+}
+
+
+.left {
+  margin-right: auto;
+  /* border-top-right-radius: 200px 200px; */
+  border-bottom-right-radius: 0px 0px;
+
+
+}
+
+.right {
+  margin-left: auto;
+  /* border-top-left-radius: 200px 200px; */
+  border-bottom-left-radius: 0px 0px;
+
+}
+
+.section-heading
+{
+  margin: 4% 0%;
+}
